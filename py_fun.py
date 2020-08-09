@@ -139,6 +139,7 @@ def upload_jys_data(ui):
                   break
             if int(''.join(read_hex[slice(69, 73)]),16) == 99999999:
               break
+            d
     for i in range(256,512): 
       port = get_jy_port(comName)
       if port.open(QIODevice.ReadWrite):  
@@ -163,7 +164,8 @@ def upload_jys_data(ui):
                 if(len(read_hex) == nowlen):
                   break
             if int(''.join(read_hex[slice(69, 73)]),16) == 99999999:
-              break          
+              break    
+
       port.close()
 
 def to_hex(bytes_list):
@@ -183,4 +185,4 @@ def hexFillZero(b):
 
 
 def show_warning(ui):
-  QMessageBox.warning(QWidget,'标题','警告框消息正文',QMessageBox.Yes|QMessageBox.No,QMessageBox.Yes)
+  print('text')
