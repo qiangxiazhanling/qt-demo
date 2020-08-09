@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>210</width>
-    <height>483</height>
+    <height>384</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -77,11 +77,6 @@
             <string>绝缘表</string>
            </property>
           </item>
-          <item>
-           <property name="text">
-            <string>防干烧</string>
-           </property>
-          </item>
          </widget>
         </item>
         <item row="4" column="0" colspan="2">
@@ -126,68 +121,58 @@
           </property>
          </widget>
         </item>
-        <item row="8" column="0">
-         <widget class="QLabel" name="label_17">
-          <property name="text">
-           <string>所属车间</string>
+        <item row="7" column="0">
+         <widget class="Line" name="line_6">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
           </property>
          </widget>
         </item>
-        <item row="8" column="1">
-         <widget class="QComboBox" name="dept"/>
-        </item>
-        <item row="10" column="0" colspan="2">
-         <widget class="QPushButton" name="upload_dept">
-          <property name="text">
-           <string>上传所属车间配置</string>
-          </property>
-         </widget>
-        </item>
-        <item row="11" column="0" colspan="2">
+        <item row="9" column="0" colspan="2">
          <widget class="Line" name="line_4">
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
           </property>
          </widget>
         </item>
-        <item row="12" column="0">
+        <item row="10" column="0">
          <widget class="QLabel" name="label_18">
           <property name="text">
            <string>wifi名称</string>
           </property>
          </widget>
         </item>
-        <item row="12" column="1">
+        <item row="10" column="1">
          <widget class="QLineEdit" name="wifi"/>
         </item>
-        <item row="13" column="0">
+        <item row="11" column="0">
          <widget class="QLabel" name="label_19">
           <property name="text">
            <string>wifi密码</string>
           </property>
          </widget>
         </item>
-        <item row="13" column="1">
+        <item row="11" column="1">
          <widget class="QLineEdit" name="wifi_pass"/>
         </item>
-        <item row="14" column="0">
+        <item row="12" column="0">
          <widget class="QLabel" name="label_20">
           <property name="text">
            <string>服务地址</string>
           </property>
          </widget>
         </item>
-        <item row="14" column="1">
+        <item row="12" column="1">
          <widget class="QLineEdit" name="tcp_ip"/>
         </item>
-        <item row="15" column="0" colspan="2">
+        <item row="13" column="0" colspan="2">
          <widget class="QPushButton" name="save_wifi">
           <property name="text">
            <string>写入网路设置</string>
           </property>
          </widget>
         </item>
-        <item row="16" column="0">
+        <item row="14" column="0">
          <widget class="Line" name="line_5">
           <property name="enabled">
            <bool>false</bool>
@@ -197,27 +182,20 @@
           </property>
          </widget>
         </item>
-        <item row="17" column="0">
+        <item row="15" column="0">
          <widget class="QLabel" name="label_3">
           <property name="text">
            <string>上传地址</string>
           </property>
          </widget>
         </item>
-        <item row="17" column="1">
+        <item row="15" column="1">
          <widget class="QLineEdit" name="upload_path"/>
         </item>
-        <item row="18" column="0" colspan="2">
+        <item row="16" column="0" colspan="2">
          <widget class="QPushButton" name="uploa_data">
           <property name="text">
            <string>上传数据</string>
-          </property>
-         </widget>
-        </item>
-        <item row="7" column="0">
-         <widget class="Line" name="line_6">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
           </property>
          </widget>
         </item>
